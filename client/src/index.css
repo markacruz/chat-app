@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    @apply w-[10px];
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-gray-500 rounded-xl;
+}
