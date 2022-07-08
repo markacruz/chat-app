@@ -21,14 +21,10 @@ export default function ChatLobby({ socket }) {
     }, [])
 
     useEffect(() => {
-        
         socket.on('message', (message) => {
             setMessages(messages => [...messages, message])
             console.log(message)
         })
-
-        
-
         socket.on("channelData", ({ users }) => {
             setUsers(users);
           });
@@ -115,7 +111,6 @@ export default function ChatLobby({ socket }) {
                             </Button>
                         </Form>
                     </div>
-
                 </div>
             </div>
         </div>
