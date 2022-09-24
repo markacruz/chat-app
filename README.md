@@ -1,7 +1,7 @@
 # ChatApp
 
 ## Overview
-ChatApp is a full stack mobile application developed using React, Bootstrap, and Tailwind that allows users to log‑in/sign‑up, upload, visit existing profiles, and edit personal profile for social networking. It's back-end uses Express and SocketIO for integration of WebSockets and endpoints.
+ChatApp is a full stack application developed using React, Bootstrap, and Tailwind that allows users to log‑in/sign‑up, upload, visit existing profiles, and edit personal profile for social networking. It's back-end uses Express and SocketIO for integration of WebSockets and endpoints.
 
 ## How to Run
  1. Clone `chat-app` repository using `git clone https://github.com/markacruz/chat-app.git`
